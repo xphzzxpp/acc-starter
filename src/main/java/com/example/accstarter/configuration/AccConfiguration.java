@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 @ConditionalOnClass(AccService.class)
 @EnableConfigurationProperties(AccProperties.class)
 @Configuration
-public class AccConfifuration {
+public class AccConfiguration {
 
     @Autowired
     private AccProperties accProperties;
